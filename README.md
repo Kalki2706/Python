@@ -1,4 +1,5 @@
 # Python
 Python Programming
 
-Currently learning python basics
+Starting Python journey from Kaggle.
+Currently on Intro to programming section
