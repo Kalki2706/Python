@@ -2,4 +2,5 @@
 Python Programming
 
 Starting Python journey from Kaggle.
-Currently on Intro to programming section
+
+Day 1 :- Learnt about Arithmetic Operations & Variables
