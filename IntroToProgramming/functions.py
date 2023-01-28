@@ -95,3 +95,15 @@ def get_pay_with_more_inputs(num_hours, hourly_wage, tax_bracket):
 
 higher_pay_aftertax = get_pay_with_more_inputs(40, 24, .22)
 print(higher_pay_aftertax)
+
+
+
+# Functions with no arguments
+
+# Define the function with no arguments and with no return
+def print_hello():
+    print("Hello, World!")
+    print("Good morning")
+
+# Call the function
+print_hello()
