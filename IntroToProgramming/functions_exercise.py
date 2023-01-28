@@ -34,7 +34,7 @@ def get_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
     # total gallons to paint the total sqft area
     gallons_needed = total_sqft / sqft_per_gallon
 
-    # finding cost by adding per gallon cost with total gallons needed
-    cost = cost_per_gallon + gallons_needed
+    # finding cost by multiplying per gallon cost with total gallons needed
+    cost = cost_per_gallon * gallons_needed
 
     return cost
