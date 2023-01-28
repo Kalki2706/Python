@@ -21,18 +21,38 @@ print(new_num)
 
 # Complex Example 
 # Solved by me
+# def get_pay(num_hours):
+#     pay_pretax = num_hours * 15
+
+#     tax = (pay_pretax * 12/100)
+
+#     pay_aftertax = pay_pretax - tax
+
+#     return pay_aftertax
+
+# pay_fulltime = get_pay(40)
+# print(pay_fulltime)
+
+
+# pay_parttime = get_pay(32)
+# print(pay_parttime)
+
+
+# Complex Example 
+# Solved by the website
+
 def get_pay(num_hours):
     pay_pretax = num_hours * 15
 
-    tax = (pay_pretax * 12/100)
-
-    pay_aftertax = pay_pretax - tax
+    # 1 - 0.12 is 0.88 and multiply it with pay_pretax variable
+    pay_aftertax = pay_pretax * (1 - 0.12)
 
     return pay_aftertax
 
+# Working 8 hours a day for 5 days per week
 pay_fulltime = get_pay(40)
 print(pay_fulltime)
 
-
+# Working 6.4 hours a day for 5 days per week
 pay_parttime = get_pay(32)
 print(pay_parttime)
