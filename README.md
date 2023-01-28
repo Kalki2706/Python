@@ -1,4 +1,4 @@
 # Python
-Starting Python journey from Kaggle.
+Starting Python journey with Kaggle.
 
-Day 1 :- Learnt about Arithmetic Operations & Variables
+Day 1 :- Learnt about Arithmetic Operations & Variables. Currently learning Functions.
