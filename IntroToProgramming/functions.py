@@ -16,3 +16,23 @@ new_num = add_three(10)
 
 # Printing value by adding input_var + 3 which will be 13
 print(new_num)
+
+
+
+# Complex Example 
+# Solved by me
+def get_pay(num_hours):
+    pay_pretax = num_hours * 15
+
+    tax = (pay_pretax * 12/100)
+
+    pay_aftertax = pay_pretax - tax
+
+    return pay_aftertax
+
+pay_fulltime = get_pay(40)
+print(pay_fulltime)
+
+
+pay_parttime = get_pay(32)
+print(pay_parttime)
