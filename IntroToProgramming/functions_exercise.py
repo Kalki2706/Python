@@ -38,3 +38,10 @@ def get_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
     cost = cost_per_gallon * gallons_needed
 
     return cost
+
+
+
+# Question 4
+# walls is 432sqft, ceiling is 144sqft, one gallon covers 400sqft, cost per gallon is 15$. Values given in website
+project_cost = get_cost(432, 144, 400, 15)
+print(project_cost)
