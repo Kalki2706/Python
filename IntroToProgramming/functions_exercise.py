@@ -22,3 +22,19 @@ print(option_one)
 print(option_two)
 print(option_three)
 print(option_four)
+
+
+
+# Question 3
+# You're a home decorator, and you'd like to use Python to streamline some of your work. Specifically, you're creating a tool that you intend to use to calculate the cost of painting a room.
+def get_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
+    # First calculate total sqft to be paint
+    total_sqft = sqft_walls + sqft_ceiling
+
+    # total gallons to paint the total sqft area
+    gallons_needed = total_sqft / sqft_per_gallon
+
+    # finding cost by adding per gallon cost with total gallons needed
+    cost = cost_per_gallon + gallons_needed
+
+    return cost
