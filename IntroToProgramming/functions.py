@@ -56,3 +56,14 @@ print(pay_fulltime)
 # Working 6.4 hours a day for 5 days per week
 pay_parttime = get_pay(32)
 print(pay_parttime)
+
+
+
+
+# Variable Scope
+# Variables defined inside the function body cannot be accessed outside of the function. For example trying to print variable of above code which is under def function
+
+# Uncomment the below code to see the error
+# print(pay_aftertax)
+
+# Variables under def function have a LOCAL SCOPE & Variables outside of def function have a GLOBAL SCOPE
