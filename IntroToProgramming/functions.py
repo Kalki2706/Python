@@ -9,6 +9,8 @@ def add_three(input_var):
     # return is a keyword which is gonna return the value of output var
     return output_var
 
+# When we run a function, it can also be referred to as "calling" the function.
+
 # declared new_num variable to ouput & the input var added value in add_three def 
 new_num = add_three(10)
 
