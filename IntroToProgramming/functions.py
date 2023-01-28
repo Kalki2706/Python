@@ -67,3 +67,19 @@ print(pay_parttime)
 # print(pay_aftertax)
 
 # Variables under def function have a LOCAL SCOPE & Variables outside of def function have a GLOBAL SCOPE
+
+
+
+# Functions with multiple arguments
+# Solved by me without seeing tried myself beforhand
+
+def get_pay_with_more_inputs(num_hours, hourly_wage, tax_bracket):
+    pay_pretax = num_hours * hourly_wage
+
+    pay_aftertax = pay_pretax * (1 - tax_bracket)
+
+    return pay_aftertax
+
+
+higher_pay_aftertax = get_pay_with_more_inputs(40, 15, .12)
+print(higher_pay_aftertax)
