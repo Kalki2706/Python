@@ -72,3 +72,16 @@ print(total_cost)
 
 value = get_cost(total_cost)
 print(value)
+
+
+
+# This is also solved by me but still wrong I don't know where I am getting it wrong. Next gonna put the answer of Website. 
+
+def get_actual_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
+    total_sqft = sqft_walls + sqft_ceiling
+    gallons_needed = total_sqft / sqft_per_gallon
+    cost = cost_per_gallon * gallons_needed
+    return cost
+
+total_cost = math.ceil(get_actual_cost(432, 144, 400, 15) + 8)
+print(total_cost)
