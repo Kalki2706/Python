@@ -105,3 +105,14 @@ print(total_cost)
 # Checking how math.ceil function works
 x = math.ceil(1.44)
 print(x)
+
+
+def get_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
+    total_sqft = sqft_walls + sqft_ceiling
+    gallons_needed = total_sqft / sqft_per_gallon
+    gallons_to_buy = math.ceil(gallons_needed)
+    cost = cost_per_gallon * gallons_to_buy
+    return cost
+
+total_cost = get_cost(594, 288, 400, 15)
+print(total_cost)
