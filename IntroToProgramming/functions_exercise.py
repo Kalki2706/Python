@@ -76,7 +76,6 @@ print(value)
 
 
 # This is also solved by me but still wrong I don't know where I am getting it wrong. Next gonna put the answer of Website. 
-
 def get_actual_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
     total_sqft = sqft_walls + sqft_ceiling
     gallons_needed = total_sqft / sqft_per_gallon
@@ -85,3 +84,24 @@ def get_actual_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
 
 total_cost = math.ceil(get_actual_cost(432, 144, 400, 15) + 8)
 print(total_cost)
+
+
+
+# Solved on website as below
+
+def get_actual_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
+    total_sqft = sqft_walls + sqft_ceiling
+    gallons_needed = total_sqft / sqft_per_gallon
+    # math.ceil function is make round figure as for gallons needed 1.44 round figure is 2
+    gallons_to_buy = math.ceil(gallons_needed)
+
+    # 2 is multiplied by cost_per_gallon and got total
+    cost = cost_per_gallon * gallons_to_buy
+    return cost
+
+total_cost = get_actual_cost(432, 144, 400, 15)
+print(total_cost)
+
+# Checking how math.ceil function works
+x = math.ceil(1.44)
+print(x)
