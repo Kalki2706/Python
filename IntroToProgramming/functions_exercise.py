@@ -107,6 +107,8 @@ x = math.ceil(1.44)
 print(x)
 
 
+
+# Say you're working with a slightly larger room. Run the next code cell to calculate the cost of the project. Use math.ceil function to get the cost.
 def get_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
     total_sqft = sqft_walls + sqft_ceiling
     gallons_needed = total_sqft / sqft_per_gallon
