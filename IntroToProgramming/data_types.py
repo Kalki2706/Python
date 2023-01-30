@@ -56,3 +56,10 @@ z_two = False
 
 print(z_two)
 print(type(z_two))
+
+# Booleans is used to represent the truth value of an expression. 
+
+z_three = 1 < 2
+
+print(z_three)
+print(type(z_three))
