@@ -62,7 +62,7 @@ def cost_of_project(engraving, solid_gold):
     return cost
 
 # solid gold = true
-project_one = cost_of_project('Charlie+Denver', False)
+project_one = cost_of_project('Charlie+Denver', True)
 print(project_one)
 
 # not solid gold = false
