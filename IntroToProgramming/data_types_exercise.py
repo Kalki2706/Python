@@ -61,5 +61,10 @@ def cost_of_project(engraving, solid_gold):
     cost = solid_gold * (100 + 10 * len(engraving)) + (not solid_gold) * (50 + 7 * len(engraving))
     return cost
 
-total_cost = cost_of_project('Charlie+Denver', False)
-print(total_cost)
+# solid gold = true
+project_one = cost_of_project('Charlie+Denver', False)
+print(project_one)
+
+# not solid gold = false
+project_two = cost_of_project("08/10/2000", False)
+print(project_two)
