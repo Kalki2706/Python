@@ -1,6 +1,6 @@
 # Whenever you create a variable in Python, it has a value with a corresponding data type.
 
-# Integers
+# "INTEGERS"
 # numbers without any fractional part and can be positive or negative
 # We can use type() function to know which type of data type is being used in code.
 
@@ -10,7 +10,8 @@ print(x)
 print(type(x))
 
 
-# Floats 
+# "FLOATS"
+
 # Floats are numbers with fractional parts. They can have many numbers after decimal.
 
 nearly_pi = 3.141592653589793238462643383279502884197169399375105820974944
@@ -44,9 +45,10 @@ print(y_float)
 print(type(y_float))
 
 
-# Booleans
+# "Booleans"
+
 # Booleans print only True or False.
-# Z_ONE VALUE given is TRUE
+# z_one value given is true.
 z_one = True 
 
 print(z_one)
@@ -79,3 +81,11 @@ z_five = not z_four
 # z_four is false but with not z_four it becomes true.
 print(z_five)
 print(type(z_five))
+
+# "STRINGS"
+
+# The string data type is a collection of characters (like alphabet letters, punctuation, numerical digits, or symbols) contained in quotation marks. Strings are commonly used to represent text.
+
+w = "Hello, Python!"
+print(w)
+print(type(w))
