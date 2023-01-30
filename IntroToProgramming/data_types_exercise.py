@@ -49,3 +49,17 @@ print(True + True)
 
 # False is 0 and true is 1 = (0 + 1 + 1 + 1)
 print(False + True + True + True)
+
+
+# Question 5
+# You own an online shop where you sell rings with custom engravings. You offer both gold plated and solid gold rings.
+# 1) Gold plated rings have a base cost of $50, and you charge $7 per engraved unit.
+# 2) Solid gold rings have a base cost of $100, and you charge $10 per engraved unit.
+# 3) Spaces and punctuation are counted as engraved units.
+
+def cost_of_project(engraving, solid_gold):
+    cost = solid_gold * (100 + 10 * len(engraving)) + (not solid_gold) * (50 + 7 * len(engraving))
+    return cost
+
+total_cost = cost_of_project('Charlie+Denver', False)
+print(total_cost)
