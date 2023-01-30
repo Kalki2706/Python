@@ -107,3 +107,23 @@ print(shortest_string)
 
 print(type(shortest_string))
 print(len(shortest_string))
+
+
+# If you put a number in Quotation marks, it has a string data type
+
+my_num = "1.12321"
+
+print(my_num)
+
+print(type(my_num))
+print(len(my_num))
+
+
+# If we have a string that is convertible to a float, we can use float().
+
+# This won't always work! For instance, we can convert "10.43430" and "3" to floats, but we cannot convert "Hello, Python!" to a float.
+
+also_my_num = float(my_num)
+
+print(also_my_num)
+print(type(also_my_num))
