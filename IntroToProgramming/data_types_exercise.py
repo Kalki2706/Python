@@ -37,3 +37,15 @@ def get_expected_cost(beds, baths, has_basement):
 
 total_cost = get_expected_cost(1, 1, True)
 print(total_cost)
+
+
+# Question 4
+# In below codes the false is equivalent to 0 and true is equal to 1 
+
+print(False + False)
+print(True + False)
+print(False + True)
+print(True + True)
+
+# False is 0 and true is 1 = (0 + 1 + 1 + 1)
+print(False + True + True + True)
