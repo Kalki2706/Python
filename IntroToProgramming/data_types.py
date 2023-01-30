@@ -59,7 +59,14 @@ print(type(z_two))
 
 # Booleans is used to represent the truth value of an expression. 
 
-z_three = 1 < 2
+z_three = (1 < 2)
 
 print(z_three)
 print(type(z_three))
+
+
+# Since 5 < 3 is false statement.
+z_four = (5 < 3)
+
+print(z_four)
+print(type(z_four))
