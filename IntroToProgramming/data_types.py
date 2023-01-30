@@ -127,3 +127,37 @@ also_my_num = float(my_num)
 
 print(also_my_num)
 print(type(also_my_num))
+
+
+# Adding Strings
+
+new_string = "abc" + "def"
+
+print(new_string)
+print(type(new_string))
+
+
+# Note that it's not possible to do subtraction or division with two strings. You also can't multiply two strings, but you can multiply a string by an integer. This again results in a string that's just the original string concatenated with itself a specified number of times.
+
+newest_string = "abc" * 3
+
+print(newest_string)
+print(type(newest_string))
+
+# Added space after abc string to get space in output.
+
+newest_string = "abc " * 3
+
+print(newest_string)
+print(type(newest_string))
+
+
+# You can't multiply float with string
+# Uncomment below code to check the error.
+
+# will_not_work = "abc " * 3.
+# print(will_not_work)
+
+# Just checking if i can multiply without declaring a variable &&&.... It works! :)
+
+print("hello " * 3)
