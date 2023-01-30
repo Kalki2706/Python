@@ -70,3 +70,12 @@ z_four = (5 < 3)
 
 print(z_four)
 print(type(z_four))
+
+
+# Switch the value by using not. So not True is equivalent to False, & not False becomes True.
+
+z_five = not z_four
+
+# z_four is false but with not z_four it becomes true.
+print(z_five)
+print(type(z_five))
