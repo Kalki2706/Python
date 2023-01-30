@@ -42,3 +42,17 @@ y_float = 1.
 
 print(y_float)
 print(type(y_float))
+
+
+# Booleans
+# Booleans print only True or False.
+# Z_ONE VALUE given is TRUE
+z_one = True 
+
+print(z_one)
+print(type(z_one))
+
+z_two = False
+
+print(z_two)
+print(type(z_two))
