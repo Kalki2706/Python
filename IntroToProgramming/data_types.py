@@ -89,3 +89,21 @@ print(type(z_five))
 w = "Hello, Python!"
 print(w)
 print(type(w))
+
+
+# Len function in string to know the length of a string
+
+name = "Kalki"
+
+print(name)
+print(len(name))
+
+
+# One special type of string is the empty string, which has length zero.
+
+shortest_string = ""
+
+print(shortest_string)
+
+print(type(shortest_string))
+print(len(shortest_string))
