@@ -34,3 +34,11 @@ rounded_pi = round(almost_pi, 5)
 
 print(rounded_pi)
 print(type(rounded_pi))
+
+
+# Pyhton recognizes float data type for ex. 1. or 1.0 , 1.00 etc. will be float even they don't have any fractional part
+
+y_float = 1.
+
+print(y_float)
+print(type(y_float))
