@@ -24,3 +24,13 @@ almost_pi = 22 / 7
 
 print(almost_pi)
 print(type(almost_pi))
+
+
+# One function that is particularly useful for fractions is the round() function. It lets you round a number to a specified number of decimal places.
+
+# Round to 5 decimal places
+
+rounded_pi = round(almost_pi, 5)
+
+print(rounded_pi)
+print(type(rounded_pi))
