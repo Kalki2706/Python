@@ -33,3 +33,17 @@ print(var_y / var_z)
 # you can only add string with string
 
 # You can only multiply string with int others will throw an error.
+
+# Example 
+# int
+var_a = 100
+var_b = 200
+
+print(var_a + var_b)
+
+# float
+
+var_a = 10
+var_b = 200
+
+print(var_a / var_b)
