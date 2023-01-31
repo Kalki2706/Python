@@ -52,3 +52,17 @@ print(var_a / var_b)
 
 name = "Kalki"
 print(name)
+
+
+# String addition
+
+name = "Kalki "
+number = "2706"
+
+print(name + number)
+
+name = "Kalki "
+number = "2706"
+name_num = name + number
+
+print(name_num)
