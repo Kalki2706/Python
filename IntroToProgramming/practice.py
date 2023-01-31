@@ -83,3 +83,13 @@ var_b = False
 
 print(var_a)
 print(type(var_a))
+
+# The value of true is 1
+var_a = "Kalki"
+
+var_b = True
+
+var_c = False
+
+print(len(var_a) + var_b)
+print(var_b + var_c)
