@@ -102,6 +102,7 @@ number_with_fraction = 10.0
 
 print(number * number_with_fraction)
 
+
 # Using def to multiply int and float
 
 def get_number(number, number_with_fraction):
@@ -112,3 +113,15 @@ def get_number(number, number_with_fraction):
 
 output = get_number(10, 5.4)
 print(output)
+
+
+# def function by multiplying string with boolean value
+
+def cost_of_project(engraving, solid_gold):
+
+    cost = solid_gold * (100 + 10 * len(engraving)) + (not solid_gold) * (50 + 7 * len(engraving))
+
+    return cost
+
+total_cost_of_project = cost_of_project("Kalki", True)
+print(total_cost_of_project)
