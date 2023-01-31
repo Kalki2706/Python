@@ -53,3 +53,16 @@ print(fever)
 
 # We can call function without declaring variable
 # print(evaluate_temp(38))
+
+
+# "if ... else" statements
+
+def evaluate_temp_with_else(temp):
+    if temp > 38:
+        message = "Fever!"
+    else:
+        message = "Normal temprature."
+
+    return message
+
+print(evaluate_temp_with_else(35))
