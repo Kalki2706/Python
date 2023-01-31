@@ -47,3 +47,8 @@ var_a = 10
 var_b = 200
 
 print(var_a / var_b)
+
+# String
+
+name = "Kalki"
+print(name)
