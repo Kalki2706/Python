@@ -93,3 +93,22 @@ var_c = False
 
 print(len(var_a) + var_b)
 print(var_b + var_c)
+
+
+# multiplying int with float
+
+number = 10
+number_with_fraction = 10.0
+
+print(number * number_with_fraction)
+
+# Using def to multiply int and float
+
+def get_number(number, number_with_fraction):
+    # multiplying numbers by taking input
+    total = number * number_with_fraction
+
+    return total
+
+output = get_number(10, 5.4)
+print(output)
