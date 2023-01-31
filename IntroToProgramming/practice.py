@@ -74,3 +74,12 @@ name = "Kalki "
 output = name * 3
 
 print(output)
+
+
+# Booleans
+
+var_a = True
+var_b = False
+
+print(var_a)
+print(type(var_a))
