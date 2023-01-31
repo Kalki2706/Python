@@ -66,3 +66,11 @@ number = "2706"
 name_num = name + number
 
 print(name_num)
+
+
+# String multiply with int
+
+name = "Kalki "
+output = name * 3
+
+print(output)
