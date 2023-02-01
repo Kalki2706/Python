@@ -125,3 +125,13 @@ def cost_of_project(engraving, solid_gold):
 
 total_cost_of_project = cost_of_project("Kalki", True)
 print(total_cost_of_project)
+
+
+# Post increment - increasing the variable value by on
+a = 10
+
+b = a
+a = a + 1
+c = a
+
+print(a, b, c)
