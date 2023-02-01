@@ -66,3 +66,24 @@ def evaluate_temp_with_else(temp):
     return message
 
 print(evaluate_temp_with_else(35))
+
+
+# "if ... elif ... else" statement
+# we use "elif" which is short for "else if"
+
+# Tried it by myself without seeing on website
+
+def evaluate_temp_with_else_if(temp):
+    if (temp > 38):
+        message = "Fever!"
+
+    elif (temp >= 35 ):
+        message = "Normal temprature."
+
+    else:
+        message = "Low temprature."
+
+    return message
+
+body_temprature= evaluate_temp_with_else_if(35)
+print(body_temprature)
