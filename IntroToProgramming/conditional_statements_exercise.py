@@ -17,6 +17,11 @@ def get_grade(score):
 
 print(get_grade(score))
 
-#The above print ine will take input from user 
+#The above print line will take input from user 
 #score after taking input it will return grade 
 #the user got.
+
+
+#Question 2
+
+#cost of project
