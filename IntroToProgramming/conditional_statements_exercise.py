@@ -18,7 +18,7 @@ def get_grade(score):
 print(get_grade(score))
 
 #The above print line will take input from user 
-#score after taking input it will return grade 
+#after taking input of score it will print the grade 
 #the user got.
 
 
