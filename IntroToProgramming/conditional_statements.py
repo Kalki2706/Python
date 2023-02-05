@@ -85,5 +85,5 @@ def evaluate_temp_with_else_if(temp):
 
     return message
 
-body_temprature= evaluate_temp_with_else_if(35)
+body_temprature = evaluate_temp_with_else_if(35)
 print(body_temprature)
