@@ -25,3 +25,15 @@ print(get_grade(score))
 #Question 2
 
 #cost of project
+# gold plated rings have base cost 50$ and engraving 7$
+#.solid gold rings have base cost of 100$ and engraving 10$ per unit.
+
+def cost_of_project(engraving, solid_gold):
+  if solid_gold == True:
+    cost = solid_gold * (100 + 10 * len(engraving))
+  else:
+    cost = (not solid_gold) * (50 + 7 * len(engraving))
+    
+  return cost 
+
+print(cost_of_project("Kalki", True)
