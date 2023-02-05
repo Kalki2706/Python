@@ -135,3 +135,18 @@ a = a + 1
 c = a
 
 print(a, b, c)
+
+
+# Getting water bill by if elif else statement.
+def get_water_bill(num_gallons):
+    if num_gallons <= 8000:
+        bill = 5 * num_gallons / 1000
+    elif num_gallons <= 22000:
+        bill = 6 * num_gallons / 1000
+    elif num_gallons <= 30000:
+        bill = 7 * num_gallons / 1000
+    else:
+        bill = 10 * num_gallons / 1000
+    return bill
+
+print(get_water_bill(35000))
