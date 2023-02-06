@@ -15,7 +15,7 @@ def get_grade(score):
     
   return grade 
 
-print(get_grade(score))
+print(get_grade(80))
 
 #The above print line will take input from user 
 #after taking input of score it will print the grade 
@@ -37,3 +37,17 @@ def cost_of_project(engraving, solid_gold):
   return cost 
 
 print(cost_of_project("Kalki", True))
+
+
+# Question 3
+
+def get_phone_bill(gb):
+  if gb <= 15:
+    bill = 100
+
+  else:
+    bill = 100 + (gb - 15) * 100
+
+  return bill
+
+print(get_phone_bill(16.5))
