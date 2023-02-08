@@ -71,3 +71,9 @@ def get_phone_bill(gb):
   return bill
 
 print(get_phone_bill(16.5))
+
+
+# Question 5
+
+def get_labels(food_type, serving_size, calories_per_serving, saturated_fat_g, trans_fat_g, sodium_mg, sugars_g):
+  if 
