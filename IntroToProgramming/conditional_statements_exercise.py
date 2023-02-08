@@ -41,6 +41,26 @@ print(cost_of_project("Kalki", True))
 
 # Question 3
 
+def get_water_bill(num_gallons):
+  if num_gallons <= 8000:
+    bill = 5 * num_gallons / 1000
+
+  elif num_gallons <= 22000:
+    bill = 6 * num_gallons / 1000
+
+  elif num_gallons <= 30000:
+    bill = 7 * num_gallons / 1000
+
+  else:
+    bill = 10 * num_gallons / 1000
+
+  return bill
+
+print(get_water_bill(10000))
+
+
+# Question 4
+
 def get_phone_bill(gb):
   if gb <= 15:
     bill = 100
